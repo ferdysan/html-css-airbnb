@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  margin:0 auto;
+  padding: 0;
+}
+
+.container{
+  width: 400px;
+  height: 300px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.roma{
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('img/roma.jpg');
+}
+
+.parigi{
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('img/parigi.jpg');
+}
+
+.londra{
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('img/londra.jpg');
+}
+
+.copenaghen{
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('img/copenaghen.jpg');
+}
+
+.roma, .parigi, .londra, .copenaghen{
+  background-size: cover;
+
+
+}
+
+.container span{
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-shadow: 1px 2px black;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
